@@ -44,7 +44,7 @@ CRGB leds[NUM_LEDS];
 unsigned long color = CRGB::Black;
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "bddc0b19be984aae876990baebb2b2d4";
+char auth[] = ""; //insert blynk auth key here
 CRGBPalette16 gPal = CRGBPalette16(CRGB::Grey, color, CRGB::Black, CRGB::Black);
 WidgetTerminal terminal(V2);
 int COOLING = 55;
